@@ -45,6 +45,8 @@ Execute the **install.sh** file
 ```
 
 ☕ Take a break and wait for a minutes ...
+
 ![](assets/images/setup.png)
+
 After you see this list of command. Finally you're package already installed.
 Congrats! Happy Code 🥳
