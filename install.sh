@@ -1,4 +1,4 @@
-#!/bin/bash
+    #!/bin/bash
 gnome-terminal -- bash -c "echo 'Setting up installation...'
 
 echo 'Installing Node.js...'
@@ -9,6 +9,12 @@ npm -v
 
 echo -e '\nInstalling npm...\n================================================'
 sudo apt install -y npm
+
+echo -e '\nInstalling php...\n================================================'
+sudo apt install php
+
+echo -e '\nInstalling Python...\n================================================'
+sudo apt install python3
 
 echo -e '\nInstalling Docker...\n================================================'
 sudo apt-get update
@@ -27,8 +33,6 @@ sudo apt install guix
 
 echo -e '\nInstalling Neovim >= 0.8.0... \n================================================'
 sudo guix package --install neovim
-
-
 
 echo -e '\nInstalling wavemon... \n================================================'
 sudo apt install wavemon
