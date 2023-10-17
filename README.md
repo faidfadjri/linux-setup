@@ -8,17 +8,19 @@
 
 _using this one simple command you'll get bunch of package which is usefull for you as developers especially for backend or frontend web developers._
 
-- NODE JS
-- NPM
-- PHP
-- PYTHON
-- DOCKER
-- VISUAL STUDIO CODE
-- BEEKEEPER STUDIO
-- FILEZILLA
-- POSTMAN
-- NEOVIM >= 0.8.0
-- WAVEMON
+| Package            | Description                      |
+| ------------------ | -------------------------------- |
+| NODE JS            | Node.js runtime environment      |
+| NPM                | Node Package Manager             |
+| PHP                | PHP programming language         |
+| PYTHON             | Python programming language      |
+| DOCKER             | Containerization platform        |
+| VISUAL STUDIO CODE | Code editor by Microsoft         |
+| BEEKEEPER STUDIO   | SQL editor and database manager  |
+| FILEZILLA          | FTP client and server            |
+| POSTMAN            | API development and testing tool |
+| NEOVIM >= 0.8.0    | Vim-based text editor            |
+| WAVEMON            | Wireless network monitoring tool |
 
 Clone this repository
 
@@ -45,8 +47,8 @@ Execute the **install.sh** file
 ```
 
 ☕ Take a break and wait for a minutes ...
-
+\n
 ![](assets/images/setup.png)
-
+\n
 After you see this list of command. Finally you're package already installed.
 Congrats! Happy Code 🥳
