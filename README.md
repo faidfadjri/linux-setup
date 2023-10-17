@@ -51,4 +51,11 @@ Execute the **install.sh** file
 ![](assets/images/setup.png)
 <br>
 After you see this list of command. Finally you're package already installed.
+
+(Optional) If you want add vim plugin for customization your VIM editor.
+
+Copy file from git repository to your local machine
+
+> .config/nvim/init.vim
+
 Congrats! Happy Code 🥳
