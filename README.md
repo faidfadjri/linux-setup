@@ -16,7 +16,6 @@ _using this one simple command you'll get bunch of package which is usefull for 
 | PYTHON             | Python programming language      |
 | DOCKER             | Containerization platform        |
 | VISUAL STUDIO CODE | Code editor by Microsoft         |
-| BEEKEEPER STUDIO   | SQL editor and database manager  |
 | FILEZILLA          | FTP client and server            |
 | POSTMAN            | API development and testing tool |
 | NEOVIM >= 0.8.0    | Vim-based text editor            |
@@ -55,6 +54,10 @@ After you see this list of command. Finally you're package already installed.
 [ Optional ] If you want add vim plugin for customize your VIM editor.
 
 Copy file from git repository to your local machine
+
+
+### Customize Terminal
+Pixegami : [https://github.com/pixegami/terminal-profile](github)
 
 > .config/nvim/init.vim
 
