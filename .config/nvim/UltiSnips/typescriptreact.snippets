@@ -1,0 +1,15 @@
+snippet rafce "React Arrow Function Component Export" b
+import React from 'react'
+
+type Props = {}
+
+const `!v expand('%:t:r')` = (props: Props) => {
+        return (
+                <div>
+                        $0
+                </div>
+        )
+}
+
+export default `!v expand('%:t:r')`
+endsnippet
