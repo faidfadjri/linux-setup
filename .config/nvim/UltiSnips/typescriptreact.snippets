@@ -1,15 +1,95 @@
+# ============================================================================
+# EXTENSION SNIPPETS REACT (VS CODE STANDARD)
+# FILE: typescriptreact.snippets
+# ============================================================================
+
+# 1. Component Arrow Function dengan Export Default di Bawah (rafce)
 snippet rafce "React Arrow Function Component Export" b
 import React from 'react'
 
-type Props = {}
-
-const `!v expand('%:t:r')` = (props: Props) => {
+const `!v expand('%:t:r')` = () => {
         return (
                 <div>
-                        $0
+                        $1
                 </div>
         )
 }
 
 export default `!v expand('%:t:r')`
+endsnippet
+
+
+# 2. Component Arrow Function dengan Named Export di Depan (rafc)
+snippet rafc "React Arrow Function Component" b
+import React from 'react'
+
+export const `!v expand('%:t:r')` = () => {
+        return (
+                <div>
+                        $1
+                </div>
+        )
+}
+endsnippet
+
+
+# 3. Component Function Biasa dengan Export Default (rfce)
+snippet rfce "React Function Component Export" b
+import React from 'react'
+
+function `!v expand('%:t:r')`() {
+        return (
+                <div>
+                        $1
+                </div>
+        )
+}
+
+export default `!v expand('%:t:r')`
+endsnippet
+
+
+# 4. Snippet Cepat untuk React Hooks (useState)
+snippet usf "React useState Hook" b
+const [$1, set${1/\w+\s*/\u$0/}] = useState($2)
+endsnippet
+
+
+# 5. Snippet Cepat untuk React Hooks (useEffect)
+snippet uef "React useEffect Hook" b
+useEffect(() => {
+        $1
+}, [$2])
+endsnippet
+
+
+# 6. Snippet Cepat untuk React Hooks (useContext)
+snippet uct "React useContext Hook" b
+const $1 = useContext($2)
+endsnippet
+
+
+# 7. Snippet Cepat untuk React Hooks (useRef)
+snippet urf "React useRef Hook" b
+const $1 = useRef($2)
+endsnippet
+
+
+# 8. Snippet Cepat untuk React Hooks (useCallback)
+snippet ucb "React useCallback Hook" b
+const $1 = useCallback((Props) => {
+        $2
+}, [$3])
+endsnippet
+
+
+# 9. Snippet Cepat untuk React Hooks (useMemo)
+snippet ume "React useMemo Hook" b
+const $1 = useMemo(() => $2, [$3])
+endsnippet
+
+
+# 10. Console Log Cepat (clg)
+snippet clg "Console Log" b
+console.log($1)
 endsnippet
