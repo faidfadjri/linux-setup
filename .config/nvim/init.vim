@@ -8,6 +8,8 @@
 
 call plug#begin()
 
+let g:loaded_perl_provider = 0
+let g:loaded_ruby_provider = 0
 Plug 'http://github.com/tpope/vim-surround' " Surrounding ysw)
 Plug 'https://github.com/preservim/nerdtree' " NerdTree
 Plug 'https://github.com/tpope/vim-commentary' " For Commenting gcc & gc
