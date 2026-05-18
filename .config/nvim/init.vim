@@ -149,6 +149,21 @@ autocmd BufEnter *.{js,jsx,ts,tsx} :syntax sync fromstart
 autocmd BufLeave *.{js,jsx,ts,tsx} :syntax sync clear
 
 " ============================================================================
+" MULTIPLE CURSORS CONFIG (FIX BENTROK & FREEZE)
+" ============================================================================
+" Ganti tombol pemicu utama dari Ctrl+n menjadi Ctrl+d (Persis VS Code!)
+let g:multi_cursor_select_next_key='<C-d>'
+
+" Ganti tombol skip (lewati kata) menjadi Ctrl+k (Persis VS Code!)
+let g:multi_cursor_skip_key='<C-k>'
+
+" Tombol untuk membatalkan seleksi sebelumnya (Mundur)
+let g:multi_cursor_prev_key='<C-p>'
+
+" Tombol untuk keluar dari mode multiple cursor
+let g:multi_cursor_quit_key='<Esc>'
+
+" ============================================================================
 " INTELLIGENT COC EXTENSIONS (BARU - Ditambahkan dari Artikel Byteable)
 " ============================================================================
 set updatetime=300
